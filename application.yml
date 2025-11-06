@@ -1,10 +1,8 @@
-Server:
+server:
   port: 8080
-
 spring:
   application:
     name: greeting-service
-
 management:
   endpoints:
     web:
@@ -14,7 +12,6 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
-
 greeting-service:
   greeting: "Hello"
-  defaultValue: "World"
+  default-value: "World"
